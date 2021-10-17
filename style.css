@@ -23,3 +23,28 @@ body {
 .col-6 {
   display: inline-block;
 }
+
+.details {
+  /* The element to apply the animation to */
+  animation-name: details;
+  animation-duration: 3s;
+  margin: 50px 20px 20px 50px;
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes details {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: inherit;
+  }
+}
+
+.submitLabel {
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+}
