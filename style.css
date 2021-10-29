@@ -10,6 +10,7 @@ body {
   width: 150px;
   opacity: 0.5;
   background-color: transparent;
+  border-radius: 100%;
 }
 
 .secondTable {
@@ -56,4 +57,16 @@ hr {
   border-color: green;
   border-width: 5px;
   width: 5%;
+}
+
+hr > a {
+  color: greenyellow;
+}
+
+.text {
+  color: greenyellow;
+}
+strong {
+  color: red;
+  text-decoration: wavy;
 }
